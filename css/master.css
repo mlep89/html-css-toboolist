@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: Gilroy;
+    font-style: normal;
+    src: url("Gilroy-Light.otf");
+    font-weight:300
+  }
+header {
+    font-family: Gilroy;
+    src: url("Gilroy-Light.otf");
+    font-weight:300
+  }
+
+header {
+  height: 120px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+.container {
+  background-color: lightgrey;
+}
+div {
+  margin: 0 auto;
+  width: 80%;
+  height: 50px;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.task {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+  height: 30px;
+}
+
+.section {
+  color: grey;
+  background-color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  height: 30px;
+}
+
+.special {
+display: inline-block;
+padding-left: 10px;
+padding-top: 40px;
+font-weight: bold;
+}
+
+.special2 {
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+}
+
+.tag {
+  color: white;
+  background-color: lightblue;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: thin;
+  padding: 5px;
+}
+
+.blue {
+  background-color: blue;
+}
